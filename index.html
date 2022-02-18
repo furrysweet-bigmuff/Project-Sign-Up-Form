@@ -8,6 +8,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="logo-wrapper">
+        <img src="img/odin-lined.png" alt="the Odin Project Logo">
+        <span class="logo-title">Odin</span>
+    </div>
+    <div class="form-wrapper">
+        <form action="POST" class="container">
+            <div class="info">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <fieldset>
+                <div class="title">
+                    <p>Let's do this!</p>
+                </div>
+                <div class="inputs">
+                    <div class="input-wrap">
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName" name="first-name">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName" name="last-name">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="userEmail">Email</label>
+                        <input type="email" id="userEmail" name="user-email">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="userPhone">Phone number</label>
+                        <input type="tel" id="userPhone" name="user-phone">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="userPassword">Password</label>
+                        <input type="password" id="userPassword" name="user-password">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="userPasswordConfirm">Confirm password</label>
+                        <input type="password" id="userPasswordConfirm" name="user-password-confirm">
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit">Create Account</button>
+            <div class="msg">
+                <span>Already have an account? <a href="#">Log in</a></span>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
